@@ -1,5 +1,2 @@
 #!/bin/bash
-for dir in */
-do
-	  chmod +x "$dir"
-  done
+for dir in */, do chmod +x "$dir", done
