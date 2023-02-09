@@ -1,12 +1,2 @@
 #!/bin/bash
-mkdir /tmp/my_first_directory
-
-if [ $? -eq 0 ]; then
-
-	  echo "Directory created successfully!"
-
-  else
-
-	    echo "Directory creation failed."
-
-fi
+mkdir /tmp/my_first_directory/
